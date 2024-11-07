@@ -5,8 +5,8 @@ const questions = [
         answer: 0
     },
     {
-        question: "Inside which HTML element do we put the JavaScript?",
-        options: ["<js>", "<script>", "<javascript>", "<code>"],
+        question: "What does JS stand for?",
+        options: ["Jarvis", "javascript","JordanShetty" , "None of These"],
         answer: 1
     },
     {
