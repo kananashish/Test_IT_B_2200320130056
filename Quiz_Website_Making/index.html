@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Mern Stack Quiz</h1>
+        <div id="quiz">
+            <div id="question-container">
+                <p id="question">Question will appear here</p>
+            </div>
+            <div id="options-container">
+                
+            </div>
+            <div id="navigation">
+                <button id="prev-btn" onclick="prevQuestion()">Previous</button>
+                <button id="next-btn" onclick="nextQuestion()">Next</button>
+                <button id="submit-btn" onclick="submitQuiz()">Submit</button>
+            </div>
+            <p id="score-display" class="hide">Your score: <span id="score"></span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
